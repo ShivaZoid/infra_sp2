@@ -9,13 +9,16 @@
 Клонируем репозиторий и переходим в него:
 ~~~
 cd infra_sp2
+
 cd api_yamdb
 ~~~
 
 Создаем и активируем виртуальное окружение:
 ~~~
 python3 -m venv venv
-source /venv/bin/activate (source /venv/Scripts/activate - для Windows)
+
+source venv/bin/activate 
+
 python -m pip install --upgrade pip
 ~~~
 
